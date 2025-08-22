@@ -1,0 +1,523 @@
+/* Arodx Agency - Responsive Styles */
+/* Author: Asiful Islam */
+/* Mobile-first responsive design */
+
+/* Large Desktop (1200px and up) */
+@media (min-width: 1200px) {
+    .hero-title {
+        font-size: 4rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.375rem;
+    }
+    
+    .section-title {
+        font-size: 3rem;
+    }
+    
+    .contact-form-wrapper {
+        padding: 4rem;
+    }
+}
+
+/* Desktop (992px and up) */
+@media (min-width: 992px) {
+    .hero-section {
+        padding: 0;
+    }
+    
+    .service-card {
+        padding: 2.5rem;
+    }
+    
+    .team-card {
+        padding: 2.5rem;
+    }
+    
+    .testimonial-card {
+        padding: 2.5rem;
+    }
+    
+    .portfolio-image {
+        height: 280px;
+    }
+    
+    .product-image {
+        height: 220px;
+    }
+}
+
+/* Tablet (768px and up) */
+@media (min-width: 768px) {
+    .hero-buttons {
+        justify-content: flex-start;
+    }
+    
+    .portfolio-filters {
+        text-align: center;
+    }
+    
+    .footer-social {
+        justify-content: flex-end;
+    }
+    
+    .contact-info {
+        margin-bottom: 0;
+    }
+}
+
+/* Mobile Large (576px and up) */
+@media (min-width: 576px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.125rem;
+    }
+    
+    .contact-form-wrapper {
+        padding: 2.5rem;
+    }
+    
+    .service-card {
+        padding: 2rem;
+    }
+    
+    .team-card {
+        padding: 2rem;
+    }
+    
+    .testimonial-card {
+        padding: 2rem;
+    }
+}
+
+/* Mobile (575px and below) */
+@media (max-width: 575.98px) {
+    /* Typography adjustments */
+    .hero-title {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .section-subtitle {
+        font-size: 1rem;
+    }
+    
+    h4 {
+        font-size: 1.25rem;
+    }
+    
+    /* Navigation */
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+    
+    .navbar-brand i {
+        font-size: 1.5rem;
+    }
+    
+    .navbar-nav .nav-link {
+        padding: 0.75rem 1rem !important;
+        text-align: center;
+    }
+    
+    /* Hero Section */
+    .hero-section {
+        padding: 2rem 0;
+        text-align: center;
+    }
+    
+    .hero-content {
+        padding: 1rem 0;
+        text-align: center;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.75rem;
+    }
+    
+    .hero-buttons .btn {
+        width: 100%;
+        max-width: 280px;
+    }
+    
+    .hero-image {
+        margin-top: 2rem;
+    }
+    
+    /* Cards */
+    .service-card {
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    
+    .service-icon {
+        margin: 0 auto 1.5rem;
+    }
+    
+    .team-card {
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .testimonial-card {
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .product-card {
+        margin-bottom: 1rem;
+    }
+    
+    .product-content {
+        padding: 1.25rem;
+    }
+    
+    /* Portfolio */
+    .portfolio-filters {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .filter-btn {
+        display: inline-block;
+        margin: 0 0.25rem 0.5rem 0;
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+    }
+    
+    .portfolio-image {
+        height: 200px;
+    }
+    
+    .product-image {
+        height: 180px;
+    }
+    
+    /* Contact */
+    .contact-form-wrapper {
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .contact-info {
+        margin-bottom: 2rem;
+    }
+    
+    .contact-icon {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .contact-icon i {
+        font-size: 1.25rem;
+    }
+    
+    /* Footer */
+    .footer-section {
+        text-align: center;
+    }
+    
+    .footer-social {
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    
+    .footer-brand {
+        justify-content: center;
+    }
+    
+    /* Buttons */
+    .btn {
+        padding: 0.625rem 1.5rem;
+    }
+    
+    .btn-lg {
+        padding: 0.875rem 2rem;
+        font-size: 1rem;
+    }
+    
+    .btn-sm {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+    
+    /* Form elements */
+    .form-control,
+    .form-select {
+        padding: 0.625rem 0.875rem;
+        font-size: 0.95rem;
+    }
+    
+    /* Team images */
+    .team-image img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    /* Statistics responsive adjustments */
+    .stat-item {
+        padding: 2rem 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .stat-number {
+        font-size: 2.5rem;
+    }
+    
+    .stat-label {
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+    }
+    
+    .result-card {
+        padding: 2rem 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .result-number {
+        font-size: 2.5rem;
+    }
+    
+    .result-icon {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .result-icon i {
+        font-size: 1.5rem;
+    }
+    
+    /* Product features */
+    .product-features {
+        margin-bottom: 1rem;
+    }
+    
+    .feature-tag {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.6rem;
+    }
+    
+    /* Service features */
+    .service-features {
+        text-align: left;
+    }
+    
+    .service-features li {
+        font-size: 0.9rem;
+    }
+    
+    /* Testimonial ratings */
+    .testimonial-rating {
+        justify-content: center;
+    }
+    
+    .testimonial-rating i {
+        font-size: 1rem;
+    }
+}
+
+/* Extra Small Mobile (480px and below) */
+@media (max-width: 479.98px) {
+    .hero-title {
+        font-size: 2.25rem;
+    }
+    
+    .section-title {
+        font-size: 1.75rem;
+    }
+    
+    .contact-form-wrapper {
+        padding: 1.25rem;
+    }
+    
+    .service-card,
+    .team-card,
+    .testimonial-card {
+        padding: 1.25rem;
+    }
+    
+    .product-content {
+        padding: 1rem;
+    }
+    
+    .filter-btn {
+        padding: 0.5rem 0.75rem;
+        margin: 0 0.125rem 0.375rem 0;
+        font-size: 0.8rem;
+    }
+    
+    .btn-lg {
+        font-size: 0.95rem;
+        padding: 0.75rem 1.75rem;
+    }
+    
+    .contact-icon {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .contact-icon i {
+        font-size: 1rem;
+    }
+}
+
+/* Service detail page responsive styles */
+@media (max-width: 991.98px) {
+    .service-detail .row {
+        flex-direction: column;
+    }
+    
+    .service-detail .order-lg-2 {
+        order: 1;
+    }
+    
+    .service-detail .order-lg-1 {
+        order: 2;
+    }
+    
+    .service-image {
+        margin-top: 2rem;
+    }
+}
+
+/* Team page responsive adjustments */
+@media (max-width: 767.98px) {
+    .team-intro-content {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .team-stats {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .value-card {
+        margin-bottom: 2rem;
+    }
+    
+    .join-benefits .row {
+        justify-content: center;
+    }
+}
+
+/* Portfolio page responsive styles */
+@media (max-width: 991.98px) {
+    .portfolio-card {
+        margin-bottom: 2rem;
+    }
+    
+    .premade-card {
+        margin-bottom: 2rem;
+    }
+}
+
+/* Contact page responsive adjustments */
+@media (max-width: 991.98px) {
+    .contact-info {
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    
+    .contact-item {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .contact-details {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .quick-contact-card {
+        margin-bottom: 2rem;
+    }
+    
+    .faq-section .accordion {
+        margin: 0 1rem;
+    }
+}
+
+/* Print styles */
+@media print {
+    .navbar,
+    .hero-buttons,
+    .cta-section,
+    .footer {
+        display: none !important;
+    }
+    
+    body {
+        background: white !important;
+        color: black !important;
+    }
+    
+    .hero-section {
+        background: white !important;
+        color: black !important;
+    }
+    
+    .service-card,
+    .team-card,
+    .portfolio-card {
+        border: 1px solid #ddd !important;
+        background: white !important;
+        color: black !important;
+    }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    :root {
+        --text-light: #ffffff;
+        --text-muted: #cccccc;
+        --text-gray: #999999;
+        --border-color: #666666;
+    }
+    
+    .btn-primary,
+    .btn-outline-primary {
+        border-width: 2px;
+    }
+    
+    .service-card,
+    .team-card,
+    .portfolio-card {
+        border-width: 2px;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+    
+    .hero-image img:hover,
+    .service-card:hover,
+    .team-card:hover {
+        transform: none !important;
+    }
+}

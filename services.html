@@ -1,0 +1,575 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Services - Arodx Agency</title>
+    <meta name="description" content="AI-powered web development services including WordPress development, WooCommerce stores, SEO, security, and intelligent automation solutions.">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-robot"></i> Arodx AI Agency
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="services.html">AI Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">AI Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">AI Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="page-title">AI-Powered Services</h1>
+                    <p class="page-subtitle">Intelligent web development solutions powered by artificial intelligence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI WordPress Development -->
+    <section class="service-detail py-5" id="ai-wordpress">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="service-content">
+                        <div class="service-icon-large">
+                            <i class="fab fa-wordpress"></i>
+                        </div>
+                        <h2>AI-Enhanced WordPress Development</h2>
+                        <p class="lead">Smart WordPress websites with AI-powered features including content generation, automated SEO optimization, and intelligent user experience enhancements.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> AI Content Generation & Management</li>
+                            <li><i class="fas fa-check"></i> Smart Theme Customization</li>
+                            <li><i class="fas fa-check"></i> Automated SEO Optimization</li>
+                            <li><i class="fas fa-check"></i> AI Chatbot Integration</li>
+                            <li><i class="fas fa-check"></i> Intelligent Performance Monitoring</li>
+                            <li><i class="fas fa-check"></i> Predictive Analytics Dashboard</li>
+                        </ul>
+                        <div class="service-price">
+                            <span class="price-label">Starting from</span>
+                            <span class="price">$1,299</span>
+                        </div>
+                        <button class="btn btn-primary btn-lg" onclick="openInquiryModal('AI WordPress Development')">Get AI Quote</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop" alt="AI WordPress Development" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI E-commerce Solutions -->
+    <section class="service-detail py-5 bg-dark-alt" id="ai-ecommerce">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="service-content">
+                        <div class="service-icon-large">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h2>AI-Powered E-commerce Stores</h2>
+                        <p class="lead">Intelligent WooCommerce stores with AI-driven product recommendations, dynamic pricing, customer behavior analysis, and automated marketing campaigns.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> AI Product Recommendation Engine</li>
+                            <li><i class="fas fa-check"></i> Dynamic Pricing Optimization</li>
+                            <li><i class="fas fa-check"></i> Customer Behavior Analytics</li>
+                            <li><i class="fas fa-check"></i> Automated Email Marketing</li>
+                            <li><i class="fas fa-check"></i> Fraud Detection System</li>
+                            <li><i class="fas fa-check"></i> Inventory Prediction & Management</li>
+                        </ul>
+                        <div class="service-price">
+                            <span class="price-label">Starting from</span>
+                            <span class="price">$2,499</span>
+                        </div>
+                        <button class="btn btn-primary btn-lg" onclick="openInquiryModal('AI E-commerce Development')">Get AI Quote</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop" alt="AI E-commerce" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI SEO & Marketing -->
+    <section class="service-detail py-5" id="ai-seo">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="service-content">
+                        <div class="service-icon-large">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h2>AI-Driven SEO & Digital Marketing</h2>
+                        <p class="lead">Intelligent SEO optimization using machine learning algorithms for keyword analysis, content optimization, and automated ranking improvements.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> AI Keyword Research & Analysis</li>
+                            <li><i class="fas fa-check"></i> Content Optimization Engine</li>
+                            <li><i class="fas fa-check"></i> Automated Technical SEO Audits</li>
+                            <li><i class="fas fa-check"></i> Competitor Analysis AI</li>
+                            <li><i class="fas fa-check"></i> Voice Search Optimization</li>
+                            <li><i class="fas fa-check"></i> Real-time Performance Tracking</li>
+                        </ul>
+                        <div class="service-price">
+                            <span class="price-label">Starting from</span>
+                            <span class="price">$899</span>
+                        </div>
+                        <button class="btn btn-primary btn-lg" onclick="openInquiryModal('AI SEO & Marketing')">Get AI Quote</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="AI SEO Marketing" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Security Solutions -->
+    <section class="service-detail py-5 bg-dark-alt" id="ai-security">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="service-content">
+                        <div class="service-icon-large">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h2>AI-Enhanced Cybersecurity</h2>
+                        <p class="lead">Advanced AI-powered security systems with real-time threat detection, automated vulnerability scanning, and intelligent incident response.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> AI Threat Detection & Prevention</li>
+                            <li><i class="fas fa-check"></i> Behavioral Analysis System</li>
+                            <li><i class="fas fa-check"></i> Automated Security Patching</li>
+                            <li><i class="fas fa-check"></i> Smart Firewall Configuration</li>
+                            <li><i class="fas fa-check"></i> Malware Detection AI</li>
+                            <li><i class="fas fa-check"></i> 24/7 Intelligent Monitoring</li>
+                        </ul>
+                        <div class="service-price">
+                            <span class="price-label">Starting from</span>
+                            <span class="price">$699</span>
+                        </div>
+                        <button class="btn btn-primary btn-lg" onclick="openInquiryModal('AI Security Solutions')">Get AI Quote</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&h=400&fit=crop" alt="AI Security" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Chatbots & Automation -->
+    <section class="service-detail py-5" id="ai-chatbots">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="service-content">
+                        <div class="service-icon-large">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h2>AI Chatbots & Business Automation</h2>
+                        <p class="lead">Intelligent conversational AI and workflow automation to enhance customer service, streamline operations, and increase business efficiency.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Custom AI Chatbot Development</li>
+                            <li><i class="fas fa-check"></i> Natural Language Processing</li>
+                            <li><i class="fas fa-check"></i> Multi-language Support</li>
+                            <li><i class="fas fa-check"></i> Workflow Automation</li>
+                            <li><i class="fas fa-check"></i> CRM Integration</li>
+                            <li><i class="fas fa-check"></i> Analytics & Insights Dashboard</li>
+                        </ul>
+                        <div class="service-price">
+                            <span class="price-label">Starting from</span>
+                            <span class="price">$1,599</span>
+                        </div>
+                        <button class="btn btn-primary btn-lg" onclick="openInquiryModal('AI Chatbots & Automation')">Get AI Quote</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=600&h=400&fit=crop" alt="AI Chatbots" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Analytics & Insights -->
+    <section class="service-detail py-5 bg-dark-alt" id="ai-analytics">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="service-content">
+                        <div class="service-icon-large">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h2>AI Analytics & Business Intelligence</h2>
+                        <p class="lead">Advanced data analytics and machine learning insights to help businesses make data-driven decisions and predict future trends.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Predictive Analytics Models</li>
+                            <li><i class="fas fa-check"></i> Customer Lifetime Value Prediction</li>
+                            <li><i class="fas fa-check"></i> Sales Forecasting AI</li>
+                            <li><i class="fas fa-check"></i> Real-time Data Visualization</li>
+                            <li><i class="fas fa-check"></i> Automated Reporting</li>
+                            <li><i class="fas fa-check"></i> Business Intelligence Dashboard</li>
+                        </ul>
+                        <div class="service-price">
+                            <span class="price-label">Starting from</span>
+                            <span class="price">$1,199</span>
+                        </div>
+                        <button class="btn btn-primary btn-lg" onclick="openInquiryModal('AI Analytics & BI')">Get AI Quote</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="AI Analytics" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Packages -->
+    <section class="service-packages py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">AI Service Packages</h2>
+                    <p class="section-subtitle">Choose the perfect AI solution for your business needs</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>AI Starter</h3>
+                        <div class="service-price">
+                            <span class="price">$2,999</span>
+                        </div>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> AI-Enhanced WordPress Site</li>
+                            <li><i class="fas fa-check"></i> Basic AI Chatbot</li>
+                            <li><i class="fas fa-check"></i> SEO Optimization</li>
+                            <li><i class="fas fa-check"></i> Security Setup</li>
+                            <li><i class="fas fa-check"></i> 3 Months Support</li>
+                        </ul>
+                        <button class="btn btn-primary w-100" onclick="openInquiryModal('AI Starter Package')">Get Started</button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>AI Professional</h3>
+                        <div class="service-price">
+                            <span class="price">$5,999</span>
+                        </div>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Everything in Starter</li>
+                            <li><i class="fas fa-check"></i> AI E-commerce Store</li>
+                            <li><i class="fas fa-check"></i> Advanced Analytics</li>
+                            <li><i class="fas fa-check"></i> Marketing Automation</li>
+                            <li><i class="fas fa-check"></i> 6 Months Support</li>
+                        </ul>
+                        <button class="btn btn-primary w-100" onclick="openInquiryModal('AI Professional Package')">Choose Pro</button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <h3>AI Enterprise</h3>
+                        <div class="service-price">
+                            <span class="price">$12,999</span>
+                        </div>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Everything in Professional</li>
+                            <li><i class="fas fa-check"></i> Custom AI Solutions</li>
+                            <li><i class="fas fa-check"></i> Advanced Security</li>
+                            <li><i class="fas fa-check"></i> Priority Support</li>
+                            <li><i class="fas fa-check"></i> 12 Months Support</li>
+                        </ul>
+                        <button class="btn btn-primary w-100" onclick="openInquiryModal('AI Enterprise Package')">Go Enterprise</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Inquiry Modal -->
+    <div class="modal fade" id="inquiryModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">AI Service Inquiry</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <form id="inquiryForm" action="php/service-inquiry.php" method="POST">
+                    <div class="modal-body">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="inquiryName" class="form-label">Name *</label>
+                                <input type="text" class="form-control" id="inquiryName" name="name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inquiryEmail" class="form-label">Email *</label>
+                                <input type="email" class="form-control" id="inquiryEmail" name="email" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inquiryPhone" class="form-label">Phone</label>
+                                <input type="tel" class="form-control" id="inquiryPhone" name="phone">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inquiryService" class="form-label">AI Service *</label>
+                                <input type="text" class="form-control" id="inquiryService" name="service" readonly>
+                            </div>
+                            <div class="col-12">
+                                <label for="inquiryBudget" class="form-label">Budget Range</label>
+                                <select class="form-select" id="inquiryBudget" name="budget">
+                                    <option value="">Select Budget Range</option>
+                                    <option value="$1,000 - $3,000">$1,000 - $3,000</option>
+                                    <option value="$3,000 - $6,000">$3,000 - $6,000</option>
+                                    <option value="$6,000 - $12,000">$6,000 - $12,000</option>
+                                    <option value="$12,000 - $25,000">$12,000 - $25,000</option>
+                                    <option value="$25,000+">$25,000+</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label for="inquiryMessage" class="form-label">AI Project Details *</label>
+                                <textarea class="form-control" id="inquiryMessage" name="message" rows="4" placeholder="Describe your AI project requirements, goals, and specific features you need..." required></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Send AI Inquiry</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Professional Footer -->
+    <footer class="professional-footer">
+        <!-- Main Footer Content -->
+        <div class="footer-main py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Company Information -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-brand">
+                            <div class="brand-logo">
+                                <i class="fas fa-code"></i>
+                                <h3>Arodx Agency</h3>
+                            </div>
+                            <p class="brand-description">Transforming businesses through innovative web solutions. We specialize in WordPress development, e-commerce platforms, SEO optimization, and comprehensive digital services.</p>
+                            
+                            <!-- Company Stats -->
+                            <div class="footer-stats">
+                                <div class="stat-item">
+                                    <span class="stat-number">150+</span>
+                                    <span class="stat-label">Projects</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">98%</span>
+                                    <span class="stat-label">Satisfaction</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">5+</span>
+                                    <span class="stat-label">Years</span>
+                                </div>
+                            </div>
+
+                            <!-- Social Links -->
+                            <div class="social-links-footer">
+                                <h5>Follow Us</h5>
+                                <div class="social-icons">
+                                    <a href="#" class="social-link" title="Facebook">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="social-link" title="Twitter">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="social-link" title="LinkedIn">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" class="social-link" title="GitHub">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="social-link" title="Instagram">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Navigation -->
+                    <div class="col-lg-2 col-md-6">
+                        <div class="footer-section">
+                            <h4 class="footer-title">Company</h4>
+                            <ul class="footer-links">
+                                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                                <li><a href="services.html"><i class="fas fa-cog"></i> Services</a></li>
+                                <li><a href="portfolio.html"><i class="fas fa-folder"></i> Portfolio</a></li>
+                                <li><a href="team.html"><i class="fas fa-users"></i> Team</a></li>
+                                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Services Menu -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-section">
+                            <h4 class="footer-title">Our Services</h4>
+                            <ul class="footer-links">
+                                <li><a href="services.html#wordpress"><i class="fab fa-wordpress"></i> WordPress Development</a></li>
+                                <li><a href="services.html#woocommerce"><i class="fas fa-shopping-cart"></i> WooCommerce Stores</a></li>
+                                <li><a href="services.html#seo"><i class="fas fa-search"></i> SEO Optimization</a></li>
+                                <li><a href="services.html#security"><i class="fas fa-shield-alt"></i> Website Security</a></li>
+                                <li><a href="services.html#recovery"><i class="fas fa-medkit"></i> Hack Recovery</a></li>
+                                <li><a href="services.html#hosting"><i class="fas fa-server"></i> Hosting Management</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-section">
+                            <h4 class="footer-title">Get In Touch</h4>
+                            
+                            <!-- Contact Details -->
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="contact-info">
+                                        <span class="contact-label">Email</span>
+                                        <a href="mailto:info@arodx.com">info@arodx.com</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="contact-info">
+                                        <span class="contact-label">Phone</span>
+                                        <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fab fa-whatsapp"></i>
+                                    </div>
+                                    <div class="contact-info">
+                                        <span class="contact-label">WhatsApp</span>
+                                        <a href="https://wa.me/15551234567">+1 (555) 123-4567</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="contact-info">
+                                        <span class="contact-label">Location</span>
+                                        <span>Global Remote Services</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Business Hours -->
+                            <div class="business-hours">
+                                <h5>Business Hours</h5>
+                                <div class="hours-item">
+                                    <span>Monday - Friday:</span>
+                                    <span>9:00 AM - 6:00 PM EST</span>
+                                </div>
+                                <div class="hours-item">
+                                    <span>Emergency Support:</span>
+                                    <span>24/7 Available</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom py-3">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="copyright">
+                            <p>&copy; 2024 <strong>Arodx Agency</strong>. All rights reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer-meta">
+                            <span class="meta-item">
+                                <i class="fas fa-user"></i> Created by <strong>Asiful Islam</strong>
+                            </span>
+                            <span class="meta-item">
+                                <i class="fas fa-code-branch"></i> Version <strong>7.4.32</strong>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
